@@ -11,7 +11,7 @@
   
   <form action="{{ url_for('process') }}" method="post">
        {% for word in table_content %}
-            <label for="input{{ word }}">Enter a word for: {{ word }}:</label>
+            <label for="input{{ word }}" id="label{{ word}}">Enter a word for: {{ word }}:</label>
             <input type="text" id="input{{ word }}" name="input{{ word }}"><br>
         {% endfor %}
     

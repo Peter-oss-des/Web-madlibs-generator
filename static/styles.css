@@ -1,16 +1,28 @@
-h1 {
-  color: white; /* Set text color to blue */
-  font-size: 24px; /* Set font size to 24 pixels */
-  
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  font-family: sans-serif;
+}
+
+h1{
+  color: white;
+}
+
+input{
+  all: unset;
+  font:15px system-ui;
+  color:#fff;
+  /*height: 100%;
+  width: 100%;*/
+  padding: 6px 9px
+}
+
+label{
+  color: #fff;
+  background-color: black;
 }
 
 
-
-/* Add more CSS rules as needed */
-body {
-    background-color: darkblue; /* Set background color to light gray */
-}
-
-#my-id {
-    font-weight: bold; /* Set text to bold */
-}
