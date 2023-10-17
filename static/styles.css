@@ -12,11 +12,9 @@ h1{
 }
 
 input{
-  all: unset;
+  all: set;
   font:15px system-ui;
-  color:#fff;
-  /*height: 100%;
-  width: 100%;*/
+  color:black;
   padding: 6px 9px
 }
 
